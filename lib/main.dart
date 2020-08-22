@@ -1,5 +1,5 @@
+import 'package:facebook_ui/screens/nav_screen.dart';
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
 
 import 'config/palette.dart';
 
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: Palette.scaffold,
       ),
-      home: HomeScreen(),
+      home: NavScreen(),
     );
   }
 }
